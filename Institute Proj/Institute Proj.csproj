@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C8FC8B1F-9D3F-48FA-A3B4-93C5140BF5C2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Institute_Proj</RootNamespace>
+    <AssemblyName>Institute Proj</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmbill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmbill.Designer.cs">
+      <DependentUpon>frmbill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmenquiry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmenquiry.Designer.cs">
+      <DependentUpon>frmenquiry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmadmission.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmadmission.Designer.cs">
+      <DependentUpon>frmadmission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmmenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmmenu.Designer.cs">
+      <DependentUpon>frmmenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Institute_ProjDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Institute_ProjDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Institute_ProjDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Institute_ProjDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Institute_ProjDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Institute_ProjDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Institute_ProjDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Institute_ProjDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Institute_ProjDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Institute_ProjDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlogin.Designer.cs">
+      <DependentUpon>frmlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmcourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmcourse.Designer.cs">
+      <DependentUpon>frmcourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmbatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmbatch.Designer.cs">
+      <DependentUpon>frmbatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Institute_ProjDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Institute_ProjDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Institute_ProjDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Institute_ProjDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="frmteacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmteacher.Designer.cs">
+      <DependentUpon>frmteacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmresult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmresult.Designer.cs">
+      <DependentUpon>frmresult.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmbill.resx">
+      <DependentUpon>frmbill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmenquiry.resx">
+      <DependentUpon>frmenquiry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmadmission.resx">
+      <DependentUpon>frmadmission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlogin.resx">
+      <DependentUpon>frmlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcourse.resx">
+      <DependentUpon>frmcourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmbatch.resx">
+      <DependentUpon>frmbatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmmenu.resx">
+      <DependentUpon>frmmenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmteacher.resx">
+      <DependentUpon>frmteacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmresult.resx">
+      <DependentUpon>frmresult.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Institute_ProjDataSet.xsc">
+      <DependentUpon>Institute_ProjDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Institute_ProjDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Institute_ProjDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Institute_ProjDataSet.xss">
+      <DependentUpon>Institute_ProjDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Institute_ProjDataSet1.xsc">
+      <DependentUpon>Institute_ProjDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Institute_ProjDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Institute_ProjDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Institute_ProjDataSet1.xss">
+      <DependentUpon>Institute_ProjDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Institute_ProjDataSet2.xsc">
+      <DependentUpon>Institute_ProjDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Institute_ProjDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Institute_ProjDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Institute_ProjDataSet2.xss">
+      <DependentUpon>Institute_ProjDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Institute_ProjDataSet3.xsc">
+      <DependentUpon>Institute_ProjDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Institute_ProjDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Institute_ProjDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Institute_ProjDataSet3.xss">
+      <DependentUpon>Institute_ProjDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Institute_ProjDataSet4.xsc">
+      <DependentUpon>Institute_ProjDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Institute_ProjDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Institute_ProjDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Institute_ProjDataSet4.xss">
+      <DependentUpon>Institute_ProjDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Institute_ProjDataSet5.xsc">
+      <DependentUpon>Institute_ProjDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Institute_ProjDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Institute_ProjDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Institute_ProjDataSet5.xss">
+      <DependentUpon>Institute_ProjDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Institute_ProjDataSet6.xsc">
+      <DependentUpon>Institute_ProjDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Institute_ProjDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Institute_ProjDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Institute_ProjDataSet6.xss">
+      <DependentUpon>Institute_ProjDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

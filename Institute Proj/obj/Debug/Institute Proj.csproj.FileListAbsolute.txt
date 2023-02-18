@@ -1,0 +1,37 @@
+D:\Project\Institute Proj\bin\Debug\Institute Proj.exe.config
+D:\Project\Institute Proj\bin\Debug\Institute Proj.exe
+D:\Project\Institute Proj\bin\Debug\Institute Proj.pdb
+D:\Project\Institute Proj\obj\Debug\Institute Proj.csproj.AssemblyReference.cache
+D:\Project\Institute Proj\obj\Debug\Institute Proj.csproj.SuggestedBindingRedirects.cache
+D:\Project\Institute Proj\obj\Debug\Institute_Proj.frmlogin.resources
+D:\Project\Institute Proj\obj\Debug\Institute_Proj.Properties.Resources.resources
+D:\Project\Institute Proj\obj\Debug\Institute Proj.csproj.GenerateResource.cache
+D:\Project\Institute Proj\obj\Debug\Institute Proj.csproj.CoreCompileInputs.cache
+D:\Project\Institute Proj\obj\Debug\Institute Proj.exe
+D:\Project\Institute Proj\obj\Debug\Institute Proj.pdb
+D:\Project\Institute Proj\obj\Debug\Institute_Proj.frmcourse.resources
+D:\Project\Institute Proj\obj\Debug\Institute_Proj.frmbatch.resources
+D:\Project\Institute Proj\obj\Debug\Institute_Proj.frmenquiry.resources
+D:\Project\Institute Proj\obj\Debug\Institute_Proj.frmteacher.resources
+D:\Project\Institute Proj\obj\Debug\Institute_Proj.frmresult.resources
+D:\Project\Institute Proj\obj\Debug\Institute_Proj.frmadmission.resources
+D:\Project\Institute Proj\obj\Debug\Institute_Proj.frmbill.resources
+D:\Project\Institute Proj\obj\Debug\Institute_Proj.frmmenu.resources
+D:\.Net\Institute Proj\Institute Proj\bin\Debug\Institute Proj.exe.config
+D:\.Net\Institute Proj\Institute Proj\bin\Debug\Institute Proj.exe
+D:\.Net\Institute Proj\Institute Proj\bin\Debug\Institute Proj.pdb
+D:\.Net\Institute Proj\Institute Proj\obj\Debug\Institute Proj.csproj.AssemblyReference.cache
+D:\.Net\Institute Proj\Institute Proj\obj\Debug\Institute_Proj.frmbill.resources
+D:\.Net\Institute Proj\Institute Proj\obj\Debug\Institute_Proj.frmenquiry.resources
+D:\.Net\Institute Proj\Institute Proj\obj\Debug\Institute_Proj.frmadmission.resources
+D:\.Net\Institute Proj\Institute Proj\obj\Debug\Institute_Proj.frmlogin.resources
+D:\.Net\Institute Proj\Institute Proj\obj\Debug\Institute_Proj.frmcourse.resources
+D:\.Net\Institute Proj\Institute Proj\obj\Debug\Institute_Proj.frmbatch.resources
+D:\.Net\Institute Proj\Institute Proj\obj\Debug\Institute_Proj.frmmenu.resources
+D:\.Net\Institute Proj\Institute Proj\obj\Debug\Institute_Proj.Properties.Resources.resources
+D:\.Net\Institute Proj\Institute Proj\obj\Debug\Institute_Proj.frmteacher.resources
+D:\.Net\Institute Proj\Institute Proj\obj\Debug\Institute_Proj.frmresult.resources
+D:\.Net\Institute Proj\Institute Proj\obj\Debug\Institute Proj.csproj.GenerateResource.cache
+D:\.Net\Institute Proj\Institute Proj\obj\Debug\Institute Proj.csproj.CoreCompileInputs.cache
+D:\.Net\Institute Proj\Institute Proj\obj\Debug\Institute Proj.exe
+D:\.Net\Institute Proj\Institute Proj\obj\Debug\Institute Proj.pdb
